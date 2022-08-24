@@ -6,37 +6,37 @@ local decay = {}
 decay.normal = {
   a = { bg = colors.color4, fg = colors.background },
   b = { bg = colors.lighter, fg = colors.foreground },
-  c = { bg = colors.statusline_bg, fg = colors.statusline_bg },
+  c = { bg = colors.statusline_bg, fg = colors.color4 },
 }
 
 decay.insert = {
   a = { bg = colors.color2, fg = colors.background },
   b = { bg = colors.lighter, fg = colors.foreground },
-  c = { bg = colors.statusline_bg, fg = colors.statusline_bg },
+  c = { bg = colors.statusline_bg, fg = colors.color2 },
 }
 
 decay.command = {
   a = { bg = colors.color1, fg = colors.background },
   b = { bg = colors.lighter, fg = colors.foreground },
-  c = { bg = colors.statusline_bg, fg = colors.statusline_bg },
+  c = { bg = colors.statusline_bg, fg = colors.color1 },
 }
 
 decay.visual = {
   a = { bg = colors.color6, fg = colors.background },
   b = { bg = colors.lighter, fg = colors.foreground },
-  c = { bg = colors.statusline_bg, fg = colors.statusline_bg },
+  c = { bg = colors.statusline_bg, fg = colors.color6 },
 }
 
 decay.replace = {
   a = { bg = colors.color1, fg = colors.background },
   b = { bg = colors.lighter, fg = colors.foreground },
-  c = { bg = colors.statusline_bg, fg = colors.statusline_bg },
+  c = { bg = colors.statusline_bg, fg = colors.color1 },
 }
 
 decay.inactive = {
   a = { bg = colors.background, fg = colors.color7 },
   b = { bg = colors.lighter, fg = colors.foreground },
-  c = { bg = colors.statusline_bg, fg = colors.statusline_bg },
+  c = { bg = colors.statusline_bg, fg = colors.color7 },
 }
 
 return decay
