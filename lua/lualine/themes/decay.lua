@@ -6,31 +6,31 @@ local decay = {}
 decay.normal = {
   a = { bg = colors.color4, fg = colors.background },
   b = { bg = colors.lighter, fg = colors.foreground },
-  c = { bg = colors.statusline_bg, fg = colors.color4 },
+  c = { bg = colors.statusline_bg, fg = colors.foreground },
 }
 
 decay.insert = {
   a = { bg = colors.color2, fg = colors.background },
   b = { bg = colors.lighter, fg = colors.foreground },
-  c = { bg = colors.statusline_bg, fg = colors.color2 },
+  c = { bg = colors.statusline_bg, fg = colors.foreground },
 }
 
 decay.command = {
   a = { bg = colors.color1, fg = colors.background },
   b = { bg = colors.lighter, fg = colors.foreground },
-  c = { bg = colors.statusline_bg, fg = colors.color1 },
+  c = { bg = colors.statusline_bg, fg = colors.foreground },
 }
 
 decay.visual = {
   a = { bg = colors.color6, fg = colors.background },
   b = { bg = colors.lighter, fg = colors.foreground },
-  c = { bg = colors.statusline_bg, fg = colors.color6 },
+  c = { bg = colors.statusline_bg, fg = colors.foreground },
 }
 
 decay.replace = {
   a = { bg = colors.color1, fg = colors.background },
   b = { bg = colors.lighter, fg = colors.foreground },
-  c = { bg = colors.statusline_bg, fg = colors.color1 },
+  c = { bg = colors.statusline_bg, fg = colors.foreground },
 }
 
 decay.inactive = {
